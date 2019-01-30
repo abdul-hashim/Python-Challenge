@@ -7,14 +7,10 @@ with open(csvpath, newline= '') as csvfile:
 
     csvreader = csv.reader(csvfile, delimiter=',')
 
-    #Dispalys the memory slot of the file we're reading
-    # print(csvreader)
-    zip("Date", "Profit/Losses")
     #reads the first line of the file which is the header and we stored it in the csv_header variable.
     csv_header = next(csvreader)
-    #print(f"CSV Header: {csv_header}")
 
-    #Records each row we go through in the file
+    #variables needed
     counter = 0
     moneyz = 0
     oldAvg = 0
@@ -23,18 +19,18 @@ with open(csvpath, newline= '') as csvfile:
     currHigh = 0
     currLow = 0
     tempAvg = 0
+
     #goes through each row in the CSV file so we can read it and do whatever we want with it
     for row in csvreader:
         if (counter != 0):
             newAvg = float(row[1])
-            # print(f"{oldAvg}")
-            # print(f"{newAvg}")
             totalAvg += newAvg - oldAvg
             tempAvg = newAvg - oldAvg
-            #stores Highest Avg
+            #Stores Highest Avg
         if currHigh < tempAvg:
             highestDate = str(row[0])
             currHigh =  tempAvg
+            #Stores Lowest Avg
         if currLow > tempAvg:
             lowestDate = str(row[0])
             currLow =  tempAvg
@@ -44,16 +40,10 @@ with open(csvpath, newline= '') as csvfile:
         #Counts the rows of months in data
         counter = counter + 1
 
-       # avgA = float(row[1])
-        #avgB = float(row[2])
-        #if counter == 1:
-            #print(f"{avgA} and {avgB}")
-        #print(row)
-    #print(csvreader(1))
-
     #Calculate average so we can print it
     averageChange= totalAvg / (counter - 1)
 
+    #Displays results
     print("Financial Analysis")
     print("------------------------------")
     print(f"Total Months: {counter}")
