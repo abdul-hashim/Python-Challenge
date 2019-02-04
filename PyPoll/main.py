@@ -1,8 +1,7 @@
 import os
 import csv
 
-#csvpath = os.path.join('.', 'election_data.csv')
-csvpath = os.path.join('.', 'testt.csv')
+csvpath = os.path.join('.', 'Resources', 'election_data.csv')
 
 with open(csvpath, newline= '') as csvfile:
 
@@ -27,6 +26,7 @@ with open(csvpath, newline= '') as csvfile:
             if currentMax < countKhan:
                 currentMax = countKhan
                 winner = "Khan"
+        #Same as the above 3 steps but for Correy
         elif row[2] == "Correy":
             countCorrey = countCorrey + 1
             if currentMax < countCorrey:
@@ -59,3 +59,25 @@ with open(csvpath, newline= '') as csvfile:
     print(f"---------------------------")
     print(f"The Winner is: {winner}!")
     print(f"---------------------------")
+
+    # Specify the file to write to
+output_path = os.path.join(".", "output", "Results.csv")
+
+# Open the file using "write" mode. Specify the variable to hold the contents
+with open(output_path, 'w', newline='') as csvfile:
+
+    # Initialize csv.writer
+    csvwriter = csv.writer(csvfile, delimiter='\n')
+
+    # Write the second row
+    csvfile.writelines([f"Election Results \n"])
+    csvfile.writelines(["--------------------------- \n"])
+    csvfile.writelines([f"Total Votes: {countTotal} \n"])
+    csvfile.writelines([f"--------------------------- \n"])
+    csvfile.writelines([f"Khan: {round(countKhan/countTotal * 100, 3)}% ({countKhan}) \n"])
+    csvfile.writelines([f"Correy: {round(countCorrey/countTotal *100, 3)}% ({countCorrey}) \n"])
+    csvfile.writelines([f"Li: {round(countLi/countTotal * 100, 3)}% ({countLi}) \n"])
+    csvfile.writelines([f"O'Tooley: {round(countOTooley/countTotal*100, 3)}% ({countOTooley}) \n"])
+    csvfile.writelines([f"--------------------------- \n"])
+    csvfile.writelines([f"The Winner is: {winner}! \n"])
+    csvfile.writelines([f"--------------------------- \n"])

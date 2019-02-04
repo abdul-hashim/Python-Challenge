@@ -1,7 +1,7 @@
 import os
 import csv
 
-csvpath = os.path.join('.', 'budget_data.csv')
+csvpath = os.path.join('.', 'Resources', 'budget_data.csv')
 
 with open(csvpath, newline= '') as csvfile:
 
@@ -52,3 +52,21 @@ with open(csvpath, newline= '') as csvfile:
     print(f"Greatest Increase in Profits: {highestDate} (${int(currHigh)})")
     print(f"Greatest Decrease in Profits: {lowestDate} (${int(currLow)})")
 
+
+    # Specify the file to write to
+output_path = os.path.join(".", "output", "Results.csv")
+
+# Open the file using "write" mode. Specify the variable to hold the contents
+with open(output_path, 'w', newline='') as csvfile:
+
+    # Initialize csv.writer
+    csvwriter = csv.writer(csvfile, delimiter='\n')
+
+    # Write the second row   
+    csvfile.write("Financial Analysis\n")
+    csvfile.write("------------------------------\n")
+    csvfile.write(f"Total Months: {counter}\n")
+    csvfile.write(f"Total: ${moneyz}\n")
+    csvfile.write(f"Average Change: ${round(averageChange,2)}\n")
+    csvfile.write(f"Greatest Increase in Profits: {highestDate} (${int(currHigh)})\n")
+    csvfile.write(f"Greatest Decrease in Profits: {lowestDate} (${int(currLow)})\n")
