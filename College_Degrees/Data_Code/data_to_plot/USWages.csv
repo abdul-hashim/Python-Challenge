@@ -1,0 +1,147 @@
+degree_name,number_of_people,wage/salary,non-degree jobs,looking,looking_%,NDJ_%
+General Agriculture,10170,64601.69,454,163,1.6,4.46
+Agriculture Production And Management,7770,68821.81,431,159,2.05,5.55
+Agricultural Economics,3366,88461.45,114,49,1.46,3.39
+Animal Sciences,10352,64785.17,349,214,2.07,3.37
+Food Science,2514,77567.3,88,86,3.42,3.5
+Plant Science And Agronomy,7181,62046.47,539,164,2.28,7.51
+Soil Science,619,66965.32,22,21,3.39,3.55
+Miscellaneous Agriculture,1141,57186.97,35,24,2.1,3.07
+Environmental Science,10415,62388.09,524,463,4.45,5.03
+Forestry,5825,68659.45,233,106,1.82,4.0
+Natural Resources Management,7563,61719.36,324,220,2.91,4.28
+Architecture,25191,75971.3,764,866,3.44,3.03
+Area Ethnic And Civilization Studies,11647,71439.51,425,459,3.94,3.65
+Communications,71548,65611.66,3438,3028,4.23,4.81
+Journalism,30914,68326.65,1086,1159,3.75,3.51
+Mass Media,15775,57184.65,792,857,5.43,5.02
+Advertising And Public Relations,12462,63617.86,611,538,4.32,4.9
+Communication Technologies,4458,53907.94,251,259,5.81,5.63
+Computer And Information Systems,21118,77519.75,535,846,4.01,2.53
+Computer Programming And Data Processing,1932,72583.18,83,76,3.93,4.3
+Computer Science,64064,98371.56,1194,2179,3.4,1.86
+Information Sciences,6528,84789.32,130,253,3.88,1.99
+Computer Administration Management And Security,3682,68812.16,103,188,5.11,2.8
+Computer Networking And Telecommunications,3438,71047.62,112,148,4.3,3.26
+Cosmetology Services And Culinary Arts,2662,47621.82,413,107,4.02,15.51
+General Education,143321,50835.47,3755,2162,1.51,2.62
+Educational Administration And Supervision,3503,61936.66,58,50,1.43,1.66
+School Student Counseling,1459,50928.94,22,19,1.3,1.51
+Elementary Education,152272,43532.34,3176,1971,1.29,2.09
+Mathematics Teacher Education,9033,51006.99,175,117,1.3,1.94
+Physical And Health Education Teaching,27216,55743.57,910,520,1.91,3.34
+Early Childhood Education,14845,39445.8,413,379,2.55,2.78
+Science And Computer Teacher Education,7776,53578.44,178,125,1.61,2.29
+Secondary Teacher Education,27051,51391.75,650,351,1.3,2.4
+Special Needs Education,20638,49586.68,428,346,1.68,2.07
+Social Science Or History Teacher Education,14015,53015.33,379,258,1.84,2.7
+Teacher Education: Multiple Levels,9720,44434.25,220,147,1.51,2.26
+Language And Drama Education,21864,47224.2,504,414,1.89,2.31
+Art And Music Education,24348,45892.09,691,435,1.79,2.84
+Miscellaneous Education,23973,53977.38,561,361,1.51,2.34
+General Engineering,35952,98159.28,916,884,2.46,2.55
+Aerospace Engineering,7458,108617.11,83,158,2.12,1.11
+Biological Engineering,3445,82331.78,104,93,2.7,3.02
+Architectural Engineering,1360,89836.8,22,42,3.09,1.62
+Biomedical Engineering,3203,95327.58,58,115,3.59,1.81
+Chemical Engineering,21123,114484.74,336,574,2.72,1.59
+Civil Engineering,33553,96886.58,540,819,2.44,1.61
+Computer Engineering,15887,102179.01,251,509,3.2,1.58
+Electrical Engineering,69258,111878.32,960,1910,2.76,1.39
+Engineering Mechanics Physics And Science,2458,103936.04,44,71,2.89,1.79
+Environmental Engineering,1746,81518.33,34,53,3.04,1.95
+Geological And Geophysical Engineering,627,104547.42,9,16,2.55,1.44
+Industrial And Manufacturing Engineering,13238,103122.96,266,419,3.17,2.01
+Materials Engineering And Materials Science,2446,91432.18,46,61,2.49,1.88
+Mechanical Engineering,55551,104052.78,849,1421,2.56,1.53
+Metallurgical Engineering,1473,113754.21,22,30,2.04,1.49
+Mining And Mineral Engineering,1016,110956.57,14,37,3.64,1.38
+Naval Architecture And Marine Engineering,1563,105053.5,33,30,1.92,2.11
+Nuclear Engineering,1168,117190.43,16,27,2.31,1.37
+Petroleum Engineering,1712,160976.14,38,62,3.62,2.22
+Miscellaneous Engineering,5444,91388.43,141,162,2.98,2.59
+Engineering Technologies,2804,75070.1,83,101,3.6,2.96
+Engineering And Industrial Management,3824,96854.1,98,95,2.48,2.56
+Electrical Engineering Technology,6768,83780.25,170,207,3.06,2.51
+Industrial Production Technologies,5955,81006.44,156,212,3.56,2.62
+Mechanical Engineering Related Technologies,2249,79508.37,64,69,3.07,2.85
+Miscellaneous Engineering Technologies,4954,80722.12,143,195,3.94,2.89
+Linguistics And Comparative Language And Literatu,7475,59980.86,326,298,3.99,4.36
+Intercultural And International Studies,5811,63331.23,308,277,4.77,5.3
+Nutrition Sciences,6761,57201.34,329,218,3.22,4.87
+Mathematics And Computer Science,978,104613.25,16,33,3.37,1.64
+Cognitive Science And Biopsychology,917,84402.82,25,27,2.94,2.73
+Interdisciplinary Social Sciences,5742,57829.54,182,232,4.04,3.17
+Physical Fitness Parks Recreation And Leisure,31220,52080.54,1805,1069,3.42,5.78
+Philosophy And Religious Studies,27477,70976.6,943,804,2.93,3.43
+Theology And Religious Vocations,25151,45120.22,984,545,2.17,3.91
+Physical Sciences,867,85597.41,24,18,2.08,2.77
+Astronomy And Astrophysics,649,90800.04,19,25,3.85,2.93
+Atmospheric Sciences And Meteorology,1606,77238.37,33,36,2.24,2.05
+Chemistry,44418,107647.09,818,1141,2.57,1.84
+Geology And Earth Science,12312,84446.62,326,412,3.35,2.65
+Geosciences,1069,96834.04,22,34,3.18,2.06
+Oceanography,1098,72126.59,36,37,3.37,3.28
+Physics,20637,102467.28,296,551,2.67,1.43
+Materials Science,1464,100045.48,16,46,3.14,1.09
+Multi-Disciplinary Or General Science,28895,83382.57,956,732,2.53,3.31
+"Nuclear, Industrial Radiology, And Biological Technologies",811,70039.59,20,18,2.22,2.47
+Psychology,157579,61526.51,5968,5426,3.44,3.79
+Educational Psychology,2177,55819.38,43,48,2.2,1.98
+Clinical Psychology,1723,61042.83,41,63,3.66,2.38
+Counseling Psychology,3987,49492.93,106,132,3.31,2.66
+Industrial And Organizational Psychology,1758,77615.86,65,90,5.12,3.7
+Social Psychology,955,65113.83,16,34,3.56,1.68
+Miscellaneous Psychology,3838,70630.47,130,148,3.86,3.39
+Criminal Justice And Fire Protection,57003,58949.33,2400,2227,3.91,4.21
+Public Administration,5542,73250.61,143,222,4.01,2.58
+Public Policy,2013,97260.98,56,93,4.62,2.78
+Human Services And Community Organization,6868,46250.14,236,328,4.78,3.44
+Social Work,34117,47167.91,1000,1007,2.95,2.93
+General Social Sciences,11542,61282.49,384,333,2.89,3.33
+Economics,72111,113612.37,2063,2353,3.26,2.86
+Anthropology And Archeology,15976,60449.95,749,675,4.23,4.69
+Criminology,5694,57552.56,257,218,3.83,4.51
+Geography,10302,66829.37,407,340,3.3,3.95
+International Relations,9183,86748.6,326,406,4.42,3.55
+Political Science And Government,82457,94684.0,2540,2854,3.46,3.08
+Sociology,59514,59046.44,2113,1829,3.07,3.55
+Miscellaneous Social Sciences,1799,80684.56,49,59,3.28,2.72
+Construction Services,5956,85178.61,132,141,2.37,2.22
+"Electrical, Mechanical, And Precision Technologies And",1158,63106.37,52,45,3.89,4.49
+Transportation Sciences And Technologies,9049,91722.5,212,242,2.67,2.34
+Fine Arts,42215,52305.82,2417,1657,3.93,5.73
+Drama And Theater Arts,14184,50249.33,1126,801,5.65,7.94
+Music,28441,51715.54,1215,804,2.83,4.27
+Visual And Performing Arts,4198,45352.64,271,197,4.69,6.46
+Commercial Art And Graphic Design,31997,53424.13,1752,1448,4.53,5.48
+Film Video And Photographic Arts,9267,54732.57,606,659,7.11,6.54
+Art History And Criticism,9017,60583.34,457,304,3.37,5.07
+Studio Arts,6580,44888.51,457,260,3.95,6.95
+Miscellaneous Fine Arts,838,43086.74,80,57,6.8,9.55
+General Medical And Health Services,10497,58993.77,475,392,3.73,4.53
+Communication Disorders Sciences And Services,15994,56690.77,409,296,1.85,2.56
+Health And Medical Administrative Services,10810,64144.32,326,479,4.43,3.02
+Medical Assisting Services,4861,58088.25,120,122,2.51,2.47
+Medical Technologies Technicians,12342,67337.65,246,245,1.99,1.99
+Health And Medical Preparatory Programs,7612,144322.77,135,137,1.8,1.77
+Nursing,142481,68412.1,1694,2602,1.83,1.19
+Pharmacy Pharmaceutical Sciences And Administration,19156,104383.65,288,377,1.97,1.5
+Treatment Therapy Professions,23350,64645.13,531,508,2.18,2.27
+Community And Public Health,6482,56101.94,273,279,4.3,4.21
+Miscellaneous Health Medical Professions,7575,53050.96,241,225,2.97,3.18
+General Business,150164,84949.84,6276,4195,2.79,4.18
+Accounting,132941,88936.49,3635,3869,2.91,2.73
+Actuarial Science,854,120380.68,23,32,3.75,2.69
+Business Management And Administration,219908,76096.56,7986,7530,3.42,3.63
+Operations Logistics And E-Commerce,4887,78585.82,141,171,3.5,2.89
+Business Economics,6278,98306.57,169,231,3.68,2.69
+Marketing And Marketing Research,71299,76333.46,3917,2564,3.6,5.49
+Finance,62909,104836.89,1766,1974,3.14,2.81
+Human Resources And Personnel Management,14861,69833.07,424,583,3.92,2.85
+International Business,7049,75691.91,326,308,4.37,4.62
+Hospitality Management,12980,57788.0,1238,495,3.81,9.54
+Management Information Systems And Statistics,12478,89681.28,235,455,3.65,1.88
+Miscellaneous Business & Medical Administration,7567,73639.6,323,322,4.26,4.27
+History,80818,79024.48,2749,2278,2.82,3.4
+United States History,2053,80219.91,65,56,2.73,3.17
