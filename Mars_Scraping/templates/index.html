@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mars Scraping</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="jumbotron text-center">
+      <h1></h1>
+      <p>All Mars Data</p>
+      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Get Data!</a></p>
+    </div>
+    <img src="{{ mars.featured_image_url }}" alt="Featured Image">
+    <h2>Data Scraped on Mars:</h2>
+    <h3>News Title: {{ mars.news_title }}</h3>
+    <h3>News Details: {{ mars.news_p }}</h3>
+    <h4>The Weather: {{ mars.mars_weather }}</h4>
+    <h5>Facts: {{ mars.html_df }}</h5>
+    <h6>Pics: 
+      <li><img src="{{ mars.items_list[0][img] }}" alt="{{ mars.items_list[0][title] }}"></li>>
+      <li><img src="{{ mars.items_list[1][img] }}" alt="{{ mars.items_list[1][title] }}"></li>>
+      <li><img src="{{ mars.items_list[2][img] }}" alt="{{ mars.items_list[2][title] }}"></li>>
+      <li><img src="{{ mars.items_list[3][img] }}" alt="{{ mars.items_list[3][title] }}"></li>>
+    </h6>
+  </div>
+  </div>
+</body>
+
+</html>
+
+<!--
+"news_title": news_title,
+"news_p": news_p,
+"featured_image_url": featured_image_url,
+"mars_weather": mars_weather,
+"fact_table": html_df,
+"hemisphere_images": items_list -->
